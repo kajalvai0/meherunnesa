@@ -167,33 +167,45 @@ ALTER TABLE banners_info DISABLE ROW LEVEL SECURITY;</pre>
     </header>
 
     <!-- Why Us Section with Dynamic Road Sizes -->
-    <section class="py-16 container mx-auto px-4">
-        <div class="grid md:grid-cols-2 gap-8 items-center bg-white p-8 rounded-3xl shadow-xl border border-slate-100">
+        <section class="py-16 container mx-auto px-4">
+        <div class="grid md:grid-cols-2 gap-8 items-center bg-white p-6 md:p-8 rounded-3xl shadow-xl border border-slate-100">
             <div>
-                <h2 class="text-3xl font-bold mb-6 text-blue-900 underline decoration-yellow-400 decoration-4 underline-offset-8">কেন মেহেরুন্নেসা সোসাইটি প্রজেক্ট ২ সেরা?</h2>
+                <h2 class="text-2xl md:text-3xl font-bold mb-6 text-blue-900 underline decoration-yellow-400 decoration-4 underline-offset-8">কেন মেহেরুন্নেসা সোসাইটি প্রজেক্ট ২ সেরা?</h2>
                 <ul class="space-y-4">
-                    <li class="flex items-center text-lg"><i class="fas fa-check-circle text-green-500 mr-3 text-xl"></i> সরাসরি এখনই বাড়ী বা মার্কেট করার উপযোগী নিষ্কণ্টক জমি।</li>
-                    <li class="flex items-center text-lg">
-                        <i class="fas fa-road text-blue-500 mr-3 text-xl"></i> 
-                        প্রজেক্টের সামনে <span id="landing-main-road" class="font-bold text-blue-700 mx-1">২০</span> ফুট পিচঢালা মেইন রাস্তা (দুর্গাপুর টু দয়ালের মোড় রোড)।
+                    <li class="flex items-start text-base md:text-lg">
+                        <i class="fas fa-check-circle text-green-500 mr-3 text-xl mt-0.5 shrink-0"></i> 
+                        <span>সরাসরি এখনই বাড়ী বা মার্কেট করার উপযোগী নিষ্কণ্টক জমি।</span>
                     </li>
-                    <li class="flex items-center text-lg">
-                        <i class="fas fa-road text-green-500 mr-3 text-xl"></i> 
-                        প্রজেক্টের অভ্যন্তরীণ <span id="landing-sub-road" class="font-bold text-green-700 mx-1">১০</span> ফুট প্রশস্ত সংযোগ রাস্তা।
+                    <li class="flex items-start text-base md:text-lg">
+                        <i class="fas fa-road text-blue-500 mr-3 text-xl mt-0.5 shrink-0"></i> 
+                        <span>প্রজেক্টের সামনে <strong id="landing-main-road" class="font-extrabold text-blue-700 bg-blue-50 px-1.5 py-0.5 rounded mx-1">২০</strong> ফুট পিচঢালা মেইন রাস্তা (দুর্গাপুর টু দয়ালের মোড় রোড)।</span>
                     </li>
-                    <li class="flex items-center text-lg"><i class="fas fa-map-marker-alt text-blue-500 mr-3 text-xl"></i> দক্ষিণ চকমোক্তার, এনামুলের মোড় সংলগ্ন মনোরম পরিবেশ।</li>
-                    <li class="flex items-center text-lg"><i class="fas fa-building text-blue-500 mr-3 text-xl"></i> প্রজেক্ট এলাকাতেই ১ তলা ও ৩ তলা বাড়ী বিদ্যমান।</li>
-                    <span class="bg-red-600 text-white px-4 py-1 rounded-full text-sm font-bold animate-pulse mb-4 inline-block"> প্রজেক্টের মধ্যে মসজিদ ও মাদ্রাসা অবস্থিত </span>
+                    <li class="flex items-start text-base md:text-lg">
+                        <i class="fas fa-road text-green-500 mr-3 text-xl mt-0.5 shrink-0"></i> 
+                        <span>প্রজেক্টের অভ্যন্তরীণ <strong id="landing-sub-road" class="font-extrabold text-green-700 bg-green-50 px-1.5 py-0.5 rounded mx-1">১০</strong> ফুট প্রশস্ত সংযোগ রাস্তা।</span>
+                    </li>
+                    <li class="flex items-start text-base md:text-lg">
+                        <i class="fas fa-map-marker-alt text-blue-500 mr-3 text-xl mt-0.5 shrink-0"></i> 
+                        <span>দক্ষিণ চকমোক্তার, এনামুলের মোড় সংলগ্ন মনোরম পরিবেশ।</span>
+                    </li>
+                    <li class="flex items-start text-base md:text-lg">
+                        <i class="fas fa-building text-blue-500 mr-3 text-xl mt-0.5 shrink-0"></i> 
+                        <span>প্রজেক্ট এলাকাতেই ১ তলা ও ৩ তলা বাড়ী বিদ্যমান।</span>
+                    </li>
+                    <div class="pt-2">
+                        <span class="bg-red-600 text-white px-4 py-1.5 rounded-full text-xs md:text-sm font-bold animate-pulse inline-block shadow"> প্রজেক্টের মধ্যে মসজিদ ও মাদ্রাসা অবস্থিত </span>
+                    </div>
                 </ul>
             </div>
-            <div class="bg-green-50 border-2 border-dashed border-green-500 p-8 rounded-2xl text-center shadow-inner">
-                <h3 class="text-2xl font-bold text-green-700 mb-2">কিস্তি সুবিধা (সীমিত সময়) </h3>
-                <h2 id="info-offer-duration" class="text-2xl font-bold text-red-700 mb-2"> ১৫ জুন - ১৫ জুলাই, ২০২৬ </h2>
-                <div class="text-3xl font-black text-blue-900 mb-4">সুদ মুক্ত কিস্তি</div>
-                <a id="info-call-link" href="tel:01535491716" class="text-2xl font-black text-red-600 block hover:underline"><i class="fas fa-phone-alt mr-2"></i> <span class="phone-placeholder">01535491716</span></a>
+            <div class="bg-green-50 border-2 border-dashed border-green-500 p-6 md:p-8 rounded-2xl text-center shadow-inner mt-4 md:mt-0">
+                <h3 class="text-xl md:text-2xl font-bold text-green-700 mb-2">কিস্তি সুবিধা (সীমিত সময়) </h3>
+                <h2 id="info-offer-duration" class="text-xl md:text-2xl font-bold text-red-700 mb-2"> ১৫ জুন - ১৫ জুলাই, ২০২৬ </h2>
+                <div class="text-2xl md:text-3xl font-black text-blue-900 mb-4">সুদ মুক্ত কিস্তি</div>
+                <a id="info-call-link" href="tel:01535491716" class="text-xl md:text-2xl font-black text-red-600 block hover:underline"><i class="fas fa-phone-alt mr-2"></i> <span class="phone-placeholder">01535491716</span></a>
             </div>
         </div>
     </section>
+>
 
     <!-- Plot Layout Map Section -->
     <section id="map-layout" class="py-16 bg-slate-100">
